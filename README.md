@@ -1,1 +1,1 @@
-# data_mgmt
+# CS336 : Database Management & Info Systems
