@@ -33,6 +33,7 @@
 			out.println("<a href=\"CustomerLoginPage.jsp\"> [Go Back To Login]</a>");
 			
 		} else {
+			session.setAttribute("userid", user);
 			response.sendRedirect("CustomerAccount.jsp");
 		}
 		
