@@ -21,6 +21,8 @@
 				<td><input type="text" name="password" required></td>
 			</tr>
 		</table>
+		<a href="CustomerLoginPage.jsp"> [Go Back To Login Page]</a>
+		<br> <br>
 		<input type="submit" value="submit">
 	</form>
 	<br>

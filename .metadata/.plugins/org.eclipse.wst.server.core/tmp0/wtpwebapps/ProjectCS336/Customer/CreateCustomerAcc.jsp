@@ -6,7 +6,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
@@ -38,10 +37,9 @@
 		//inserts into customer user table is valid
 		if (!rs1.next()) {
 			String insertCustomerCred = "INSERT INTO CustomerUser VALUES ('" + user + "','" + password + "')";
-			ResultSet rs2 = stmt.executeQuery(insertCustomerCred);
+			stmt.executeUpdate(insertCustomerCred);
 			out.println("Account Created Successfully!");
 			out.println("<br><a href=\"CustomerLoginPage.jsp\"> [Go Back To Login Page]</a>");
-			rs2.close();
 		} else { //checks to see if username already exists (want distinct usernames)
 			out.println("Username Already Exists");
 			out.println("<br><a href=\"NewCustomerAcc.jsp\"> [Try Again]</a>");

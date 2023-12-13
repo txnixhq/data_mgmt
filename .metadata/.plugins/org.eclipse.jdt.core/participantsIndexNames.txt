@@ -5,5 +5,7 @@ INDEX VERSION 1.134
 /ProjectCS336/src/main/java
 /Users/jgupta/Downloads/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1319797145.index
 /ProjectCS336/src/main/java
+/Users/jgupta/Downloads/GitTracking/data_mgmt/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1319797145.index
+/ProjectCS336/src/main/java
 /Users/jgupta/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3320447379.index
 /cs336Sample/src/main/java
